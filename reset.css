@@ -1,15 +1,84 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre, a,
-abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center, dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend, table,
-caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   background: transparent;
   border: none;
   font-size: 100%;
@@ -21,9 +90,19 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav,
-section, img, main {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+img,
+main {
   display: block;
 }
 
@@ -86,6 +165,8 @@ button,
 input {
   /* Show the overflow in IE & Edge. */
   overflow: visible;
+  /* Remove outline. */
+  outline: none;
 }
 
 button,
@@ -115,8 +196,7 @@ button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
-  /* Restore the focus styles unset by the previous rule. */
-  outline: 1px dotted ButtonText;
+  outline: none;
 }
 
 textarea {
@@ -141,8 +221,8 @@ textarea {
 [type="search"] {
   /* Correct the odd appearance in Chrome and Safari. */
   -webkit-appearance: textfield;
-  /* Correct the outline style in Safari. */
-  outline-offset: -2px;
+  /* Remove outline. */
+  outline: none;
 }
 
 [type="search"]::-webkit-search-decoration {
@@ -152,9 +232,9 @@ textarea {
 
 ::-webkit-file-upload-button {
   /* Correct the inability to style clickable types in iOS and Safari. */
-  -webkit-appearance: button; /* 1 */
+  -webkit-appearance: button;
   /* Change font properties to `inherit` in Safari. */
-  font: inherit; /* 2 */
+  font: inherit;
 }
 
 summary {
