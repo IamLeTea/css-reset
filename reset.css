@@ -29,9 +29,7 @@ section, img, main {
 
 html {
   /* Prevent adjustments of font size after orientation changes in iOS. */
-  -webkit-text-size-adjust: 100%; 
-  /* Default Background Color */
-  background-color: #fff;
+  -webkit-text-size-adjust: 100%;
 }
 
 ol,
