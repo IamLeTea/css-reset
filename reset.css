@@ -106,6 +106,11 @@ main {
   display: block;
 }
 
+/* Avoid image out of element. */
+img {
+  max-width: 100%;
+}
+
 html {
   /* Prevent adjustments of font size after orientation changes in iOS. */
   -webkit-text-size-adjust: 100%;
