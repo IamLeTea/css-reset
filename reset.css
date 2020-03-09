@@ -172,6 +172,8 @@ input {
   overflow: visible;
   /* Remove outline. */
   outline: none;
+  /* Vertical Align */
+  vertical-align: center;
 }
 
 button,
