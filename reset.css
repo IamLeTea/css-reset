@@ -173,7 +173,7 @@ input {
   /* Remove outline. */
   outline: none;
   /* Vertical Align */
-  vertical-align: center;
+  vertical-align: middle;
 }
 
 button,
